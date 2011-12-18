@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/frame_layout_top">
+    
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:id="@+id/relative_layout_top">
+    
+	 	<ImageView
+	        android:id="@+id/table_image"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" 
+	        android:scaleType="fitCenter"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true"
+	        android:src="@drawable/android_table_arrow2"
+	         />
+  
+
+		<LinearLayout
+		  	xmlns:android="http://schemas.android.com/apk/res/android"
+		  	android:id="@+id/list_of_ideas_parent_layout"
+		 	android:layout_width="fill_parent"
+		  	android:layout_height="wrap_content"
+		  	android:layout_below="@id/table_image">
+  	
+			<com.ericharlow.DragNDrop.DragNDropListViewMod
+				android:id="@+id/list_of_ideas_transfer" 	
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:stackFromBottom="false"
+				android:layout_below="@id/table_image"
+				android:layout_alignParentBottom="true"    
+				android:textSize="25sp"> 
+			</com.ericharlow.DragNDrop.DragNDropListViewMod>
+    
+		    <TextView 
+			    android:id="@+id/empty_list"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:visibility="gone"
+				android:text="@string/no_ideas"
+			/>
+             
+
+   	 	</LinearLayout>
+   	 	
+ 	</RelativeLayout>
+
+</FrameLayout>

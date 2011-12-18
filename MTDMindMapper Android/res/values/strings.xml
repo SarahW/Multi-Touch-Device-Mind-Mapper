@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MTD MindMapper</string>
+    <string name="edit_text_idea_text">Ideentext</string>
+    <string name="button_scan">Nach verfügbaren Geräten suchen</string>
+    <string name="button_save">Idee speichern</string>
+    <string name="button_connecting">Verbinden abbrechen</string>
+    <string name="button_cancel_discovery">Suche abbrechen</string>
+    <string name="none_paired">Keine Geräte gekoppelt</string>
+    <string name="none_connected">Kein Gerät verbunden</string>
+    <string name="scanning">Suche nach Geräten...</string>
+    <string name="no_ideas">(Keine Ideen gespeichert)</string>
+    <string name="none_found">Keine Geräte gefunden</string>
+    <string name="select_device">Wählen Sie ein Gerät zum Verbinden aus</string>
+    <string name="connect">Gerät verbinden</string>
+    <string name="tab_title_bt">Bluetooth</string>
+    <string name="tab_title_creation">Ideenmanager</string>
+    <string name="tab_title_transfer">Ideentransfer</string>
+    <string name="info_bt_connecting">Verbindung wird hergestellt...</string>
+    <string name="info_bt_discovering">Geräte werden gesucht...</string>
+    <string name="info_bt_cancel_connecting">Verbinden wird abgebrochen...</string>
+    <string name="info_bt_cancel_discovery">Suche wird abgebrochen...</string>
+    <string name="title_connected_to">verbunden:&#160;</string>
+    <string name="title_connecting">Verbindung läuft...</string>
+    <string name="title_not_connected">nicht verbunden</string>
+    <string name="title_bt_activity">Bluetooth</string>
+    <string name="title_creation_activity">Ideen verwalten</string>
+    <string name="title_transfer_activity">Ideen transferieren</string>
+    <string name="title_paired_devices">Gekoppelte Geräte</string>
+    <string name="title_connected_devices">Verbundenes Gerät</string>
+    <string name="title_other_devices">Andere verfügbare Geräte</string>
+    <string name="dialog_help_title">Hilfe</string>
+    <string name="dialog_help_message_creation">\n(1) Idee erstellen:\nTippen Sie auf das Eingabefeld, geben Sie den Ideentext über die Tastatur ein und tippen Sie abschließend auf den \"Idee speichern\"-Button, um die Idee in der Liste zu speichern.\n\n(2) Idee löschen:\nTippen Sie lange auf einen Listeneintrag um die Idee zu löschen.\n</string>
+    <string name="dialog_help_message_transfer">\n(1) Idee auf Multi-Touch Tisch transferieren:\nWählen Sie ein Listenelement durch Tippen aus und ziehen Sie es mit dem Finger auf das Tisch-Icon. Der Transfer auf den Tisch erfolgt (bei bestehender Bluetooth-Verbindung) beim Absetzen des Fingers.</string>
+    <string name="dialog_help_message_bluetooth">\n(1) Bluetooth-Geräte suchen:\n Tippen Sie auf den Button \"Suche nach verfügbaren Geräten\", um Bluetooth-Geräte in Reichweite zu finden. Die Liste der gefundenen Geräte wird während der Suche aktualisiert.\n\n(2) Mit Bluetooth-Gerät verbinden:\nWählen Sie ein Gerät aus der Liste der gekoppelten Geräte oder der anderen verfügbaren Geräte durch Tippen aus, um eine Verbindung herzustellen. Befolgen sie ggf. Anweisungen zum Koppeln der Geräte.\n\nÜber den Button \"Verbindung abbrechen\" können Sie den Verbindungsaufbau abbrechen.\n\n(3) Verbundenes Bluetooth-Gerät trennen:\nTippen Sie auf den Eintrag unter dem Titel \"Verbundenes Gerät\", um die Verbindung zu trennen.</string>
+    <string name="dialog_help_bt_ok">OK</string>
+    <string name="toast_bt_not_enabled_leaving">Bluetooth wurde nicht aktiviert. MultiDevice MindMapper wird verlassen</string>
+    <string name="toast_bt_not_supported">Bluetooth wird nicht unterstützt!</string>
+    <string name="toast_apostrophe_not_allowed">Zeichen \' nicht erlaubt!</string>
+    <string name="toast_connected_to">Verbunden mit&#160;</string>
+    <string name="toast_connection_failed">Kann nicht mit Gerät verbinden</string>
+    <string name="toast_duplicate_idea_pt1">Idee \"</string>
+    <string name="toast_duplicate_idea_pt2">\" ist bereits gespeichert!</string>
+    <string name="toast_new_idea_created_pt1">Idee \"</string>
+    <string name="toast_new_idea_created_pt2">\" gespeichert</string>
+    <string name="toast_idea_deleted_pt1">Idee \"</string>
+    <string name="toast_idea_deleted_pt2">\" gelöscht</string>      
+    <string name="toast_idea_transferred_pt1">Idee \"</string>
+    <string name="toast_idea_transferred_pt2">\" auf Tisch übertragen!</string>
+    <string name="toast_idea_not_transferred_pt1">Fehler beim Übertragen!</string>
+    <string name="toast_idea_not_transferred_pt2">Keine Bluetooth Verbindung vorhanden.</string>
+    
+</resources>

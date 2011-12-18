@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+	<EditText 
+		 android:id="@+id/text_message" 
+		 android:layout_width="fill_parent" 
+		 android:layout_height="wrap_content" 
+		 android:hint="@string/edit_text_idea_text"
+		 android:maxLength="30"
+		 android:layout_alignParentBottom="true"
+		 android:singleLine="true"
+	     />
+	    
+	<Button 
+		 android:id="@+id/button_send" 
+		 android:text="@string/button_save" 
+		 android:layout_width="fill_parent" 
+		 android:layout_height="wrap_content" 
+		 android:layout_above="@id/text_message"
+	 	 />
+  
+	<ListView 
+		 android:id="@+id/list_of_ideas_creation"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:stackFromBottom="false"      
+	     android:layout_alignParentBottom="true"      
+	     />
+    
+	<TextView 
+	     android:id="@+id/empty_list"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="5dp"
+         android:visibility="gone"
+         android:text="@string/no_ideas"
+	     />
+    
+</LinearLayout>

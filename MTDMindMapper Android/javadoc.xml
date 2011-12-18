@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="private" author="true" 
+        	classpath=".;C:/Program Files/Android/android-sdk/platforms/android-7/android.jar" 
+        	destdir="doc" doctitle="Multi/Touch/Device MindMapper" 
+        	nodeprecated="false" nodeprecatedlist="false" noindex="false" 
+        	nonavbar="false" notree="false" 
+        	packagenames="de.sarahw.ma.phone,com.ericharlow.DragNDrop" 
+        	source="1.6" sourcepath="src;gen" splitindex="true" 
+        	use="true" version="true">
+        	 <link offline="true" 
+        	     href="http://developer.android.com/reference/" 
+        	     packagelistloc="C:/Program Files/Android/android-sdk/docs/reference" />
+        </javadoc>
+    </target>
+</project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Linked image resources are have been generated with Android Asset Studio,
+see http://android-ui-utils.googlecode.com/hg/asset-studio/dist/index.html.
+All generated art is licensed under a Creative Commons Attribution 3.0 
+Unported License, see http://creativecommons.org/licenses/by/3.0/.
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- When selected, use grey -->
+    <item android:drawable="@drawable/ic_tab_bluetooth_selected"
+          android:state_selected="true" />
+    <!-- When not selected, use white-->
+    <item android:drawable="@drawable/ic_tab_bluetooth_unselected" />
+</selector>

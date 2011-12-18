@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical" android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+    <TextView 
+        android:id="@+id/info_connecting"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/info_bt_connecting"
+        android:visibility="gone"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp"
+        android:layout_alignParentTop="true"
+      
+        />
+        
+    <ProgressBar
+    	 android:id="@+id/progress_bar_connecting"
+         android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_centerVertical="true"
+	     style="@android:style/Widget.ProgressBar.Small"
+         android:layout_marginRight="5dp"
+         android:indeterminate="true"
+         android:indeterminateBehavior="cycle"
+         android:visibility="gone"
+         android:layout_alignTop="@id/info_connecting"
+         android:layout_alignParentRight="true"
+         />
+         
+    <Button 
+        android:id="@+id/button_cancel_connection"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:visibility="gone"
+        android:text="@string/button_connecting"
+        android:layout_below="@id/info_connecting"   		  
+        />
+    
+        
+     <TextView 
+        android:id="@+id/title_connected_devices"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_connected_devices"
+        android:background="#666"
+        android:paddingLeft="5dp"
+        android:layout_below="@id/button_cancel_connection" 
+        />
+       
+    
+    <ListView 
+        android:id="@+id/connected_devices"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stackFromBottom="false"    
+        android:layout_below="@id/title_connected_devices"     
+        />
+    
+        
+    <Button 
+        android:id="@+id/button_scan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_scan"
+        android:layout_alignParentBottom="true"      
+        />
+        
+        
+    <ProgressBar
+    	 android:id="@+id/progress_bar"
+         android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_centerVertical="true"
+	     android:layout_centerHorizontal="true"
+	     style="@android:style/Widget.ProgressBar.Small"
+         android:indeterminate="true"
+         android:indeterminateBehavior="cycle"
+         android:visibility="gone"
+         android:layout_above="@id/button_scan"
+         />
+        
+  
+  	<ListView 
+  		android:id="@+id/list_view" 
+  		android:layout_width="fill_parent"
+    	android:layout_height="fill_parent" 
+    	android:drawSelectorOnTop="false"
+    	android:stackFromBottom="false"
+    	android:layout_above="@id/progress_bar"
+    	android:layout_below="@id/connected_devices" 
+    	/>
+
+</RelativeLayout>

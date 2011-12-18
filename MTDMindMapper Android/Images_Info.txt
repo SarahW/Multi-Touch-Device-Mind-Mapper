@@ -1,0 +1,21 @@
+The following image files have been generated with Android Asset Studio
+(http://android-ui-utils.googlecode.com/hg/asset-studio/dist/index.html)
+
+- ic_tab_transfer_selected.png
+- ic_tab_transfer_unselected.png
+- ic_tab_creation_selected.png
+- ic_tab_creation_unselected.png
+- ic_tab_bluetooth_selected.png
+- ic_tab_bluetooth_unselected.png
+
+All generated art is licensed under a Creative Commons Attribution 3.0 
+Unported License, see http://creativecommons.org/licenses/by/3.0/
+
+> lightbulb graphic for
+-ic_tab_creation_selected.png
+-ic_tab_creation_unselected.png
+-icon_mind_mapper.png
+
+is a modification of a public domain graphic by Jon Phillips:
+source: http://www.openclipart.org/detail/35959/lightbulb-05-by-anonymous
+
