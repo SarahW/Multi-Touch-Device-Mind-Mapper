@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.2"
+   width="70"
+   height="70"
+   id="svg3006">
+  <defs
+     id="defs3008" />
+  <metadata
+     id="metadata3011">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-982.36218)"
+     id="layer1">
+    <path
+       d="m 35.000001,40 -30.3108906,-52.499999 60.6217786,-2e-6 z"
+       transform="matrix(-0.9887133,0,0,-1.0464299,69.604966,1034.2194)"
+       id="path3814"
+       style="fill:#fffe00;fill-opacity:1;fill-rule:evenodd;stroke:#cab00c;stroke-width:1;stroke-opacity:1" />
+  </g>
+  <g
+     id="layer3">
+    <path
+       d="m 35.000001,40 -30.3108906,-52.499999 60.6217786,-2e-6 z"
+       transform="matrix(-0.75692917,0,0,-0.80111528,61.745132,50.908189)"
+       id="path3814-7"
+       style="fill:#fffa00;fill-opacity:1;fill-rule:evenodd;stroke:#ffc90d;stroke-width:5.3453269;stroke-opacity:1" />
+  </g>
+  <g
+     id="layer4">
+    <g
+       transform="matrix(1.3247251,0,0,1,10.367103,10.264778)"
+       id="flowRoot3836"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans">
+      <path
+         d="m 20.113281,20.322266 0,12.168457 -0.792114,8.02771 -1.404053,0 -0.792114,-8.02771 0,-12.168457 z m 0,22.5 0,3.74414 -3.024536,0 0,-3.74414 z"
+         id="path3845"
+         style="font-size:36px;font-variant:normal;font-stretch:normal;font-family:FreeSans;-inkscape-font-specification:FreeSans" />
+    </g>
+  </g>
+  <g
+     id="layer2" />
+</svg>

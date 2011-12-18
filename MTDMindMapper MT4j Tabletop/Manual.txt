@@ -1,0 +1,126 @@
+-----------------------------------------------------------------
+	   
+	  **********************************
+	  *   				   *
+	  *   Multi/Touch/Device MindMapper (Mt4j part)
+	  * 		  		   *
+	  **********************************
+	  
+MANUAL:
+--------------------
+*********************
+
+
+(1) Applikation starten
+--------------------
+*********************
+Zum Starten der Applikation die MindMapper.exe aufrufen.
+
+
+(2) Applikation beenden 
+--------------------
+*********************
+Die Applikation lässt sich über Auswahl des "X" Buttons im zweiten,
+kleineren Kreismenü beenden (nach Bestätigung des darauffolgenden Dialogs).
+
+(3) Applikation minimieren
+--------------------
+*********************
+Die Applikation lässt sich über Auswahl des "_" Buttons im zweiten, kleineren Kreismenü
+beenden. 
+
+! ACHTUNG: Aufgrund eines noch nicht gelösten Bugs (Minimieren am
+Multi-Touch Tisch funktioniert nicht) kommt hier ein  Workaround zum
+Tragen, der das Minimieren über einen Applikationswechsel (Alt+Tab)
+erzwingt.
+
+(4.1) Bluetooth Status
+--------------------
+*********************
+Nach dem Start der Applikation wird der aktuelle Bluetooth-Status angezeigt.
+Folgende Stati sind möglich:
+
+a) Bluetooth ist verfügbar und aktiviert
+> Alles in Ordnung, Bluetooth-Geräte mit der Android Applikation des MindMappers
+können verbunden werden.
+
+b) Bluetooth ist verfügbar und deaktiviert
+> Das Gerät auf dem die Applikation läuft unterstützt Bluetooth,
+jedoch ist der Bluetooth-Adapter nicht aktiviert. Um Bluetooth-Geräte mit
+der Applikation verbinden zu können, muss Bluetooth aktiviert und die Anwendung
+neu gestartet werden.
+
+c) Bluetooth ist nicht verfügbar
+> Das Gerät auf dem die Applikation läuft unterstützt kein Bluetooth.
+Um Bluetooth-Geräte mit der Applikation verbinden zu können, muss ein externer
+Bluetooth-Adapter angeschlossen und die Anwendung neu gestartet werden.
+
+
+(4.2) Bluetooth Pairing und Verbindung
+--------------------
+*********************
+Das Verbinden eines externen Android-Gerätes mit der Anwendung kann ausschließlich
+durch das externe Gerät initiiert werden. Das Verbinden von der Multi-Touch Anwendung
+aus ist nicht möglich. 
+
+Wird zwischen zwei Geräten erstmals eine Verbindung hergestellt,
+ist zuvor ein Pairing nötig, bei dem sowohl auf dem externen Gerät als auch auf dem
+Multi-Touch Gerät ein PIN-Code erscheint. Stimmen beide Codes überein, muss dies bestätigt
+werden. 
+
+Die Anzeige des PINs und dessen Bestätigung erfolgt außerhalb der MultiTouch Anwendung,
+weshalb beim Verbinden eines neuen Gerät die Anwendung minimiert werden muss, um die PIN
+(ggf. ist das PIN Fenster erst über das Bluetooth-Icon in der Taskleiste zu öffnen) auf
+dem Multi-Touch Gerät zu bestätigen. Wurde die Verbindung erfolgreich hergestellt, sollte
+dies sowohl in der Kopfzeile der Android-Applikation als auch im Bluetooth-Menü der Multi-Touch
+Anwendung (Hauptmenü) angezeigt werden. Letzteres listet alle aktiven Bluetooth Verbindungen auf. 
+(Weitere Aktionen sind im Bluetooth-Menü derzeit nicht möglich)
+
+(5) Ideen und Relationen
+--------------------
+*********************
+Die Erstellung von Ideen auf dem Multi-Touch Gerät kann auf zwei Arten erfolgen: Direkt am
+Gerät über das Zeichnen eines Rechtecks oder eines Kreises auf dem Hintergrund oder
+über ein über Bluetooth verbundenes Android-Gerät.
+
+Bei der Erstellung einer Idee über ein via Bluetooth verbundenes Android-Gerät erscheinen
+neue Ideen immer in der Mitte des Hintergrunds. Mit einem "Doppel-Tap" kann der Ideentext
+über ein Bildschirmtastatur editiert werden. Um zwei Ideen im Sinne einer Oberbegriff-Unterbegriff
+Beziehung zu verbinden, ist eine Pfeil-Geste über beide Ideen (Richtung: von der übergeordneten Idee zur
+untergeordneten Idee) auf dem Hintergrund zu zeichnen. Zum Löschen von Ideen und Relationen
+wird die X-Geste (ohne abzusetzen) verwendet. Die Mehrheit der Bildschirmelemente (Menüs,
+Menü Overlays, Bildschirmtastatur, Ideen, Relationen, verknüpfte Ideen) kann außerdem 
+bewegt und rotiert werden. Zusätzlich ist es möglich, einzelne Ideen oder verknüpfte Ideen (über 
+die Wurzelidee einer MindMap) durch eine Flick-Geste schnell über den Hintergrund in 
+eine Richtung zu bewegen.
+
+(6) Gestenfeedback
+--------------------
+*********************
+Zum Erstellen, Löschen und Verknüpfen von Ideen und Relationen werden in der MultiTouch-Anwendung
+Gesten verwendet. Jegliches "Zeichnen" auf dem Hintergrund der Anwendung aktiviert 
+die Gestenerkennung. Wird keine verwendbare Geste erkannt, erscheint die ausgeführte 
+Geste in rot. Wird eine Geste erkannt, ist mit dieser Geste an dieser Stelle jedoch keine Aktion 
+möglich (beispielsweise X-Geste zum Löschen auf leerem Hintergrund), erscheint die Geste in gelb. 
+Wird eine Geste erkannt und erfolgreich verarbeitet, erscheint sie in grün.
+
+
+(7) Laden und Speichern einer MindMap
+--------------------
+*********************
+Über den "Speichern" Button des Hauptmenüs kann die aktuelle Sammlung von Ideen und MindMaps
+gespeichert werden. Das in der Folge erscheinende Formular-Overlay dient zur Eingabe des
+Dateinamens für die Speicherdatei. (Begrenzung auf 50 Zeichen, keine Sonderzeichen) Besteht
+bereits eine Speicherdatei mit dem gewählten Namen, wird diese ohne Rückfrage überschrieben.
+(Ort der Speicherdaten ist der Ordner /save).
+
+Über den "Laden" Button des Hauptmenüs kann eine zuvor gespeicherte Sammlung aus der Liste
+der Speicherdateien geladen werden. 
+
+
+(8) Hilfe / Anleitung zu den verwendeten Gesten
+--------------------
+*********************
+Über den "Hilfe" Button des Hauptmenüs kann eine Übersicht über die in der MultiTouch-Anwendung
+verwendeten Touchgesten (Illustration der Geste und kurzer Erklärtext) aufgeschalten werden.
+

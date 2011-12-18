@@ -1,0 +1,11 @@
+The single images in the .ico file are used under a CreativeCommons Attribution-ShareAlike 3.0 United States (CC BY-SA 3.0) license.
+
+>> (Original) Illustrations provided by:
+
+(1) Gestureworks (www.gestureworks.com)
+> double tap gesture image
+> original illustration: one_finger_double_tap_gestureworks.pdf
+
+(2) Jon Phillips
+(http://www.openclipart.org/detail/35959/lightbulb-05-by-anonymous)
+> original lightbulb graphic (Public Domain)

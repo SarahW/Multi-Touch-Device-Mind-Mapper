@@ -1,0 +1,9 @@
+if you still have problems use the old tuio client:
+http://mt4jextensions.googlecode.com/svn/trunk/TuioReferenceGPLClient/
+
+Include the tuiolib.jar into your project and the TuioInputSource.java
+
+Then in your startUp() method do
+getInputManager().registerInputSource(new TuioInputSource(this));
+
+you may have to remove the default tuio input source first using unregisterInputSource(..) 

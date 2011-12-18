@@ -1,0 +1,44 @@
+The images for illustrating the available gestures of the application in the help menu
+are used under a CreativeCommons Attribution-ShareAlike 3.0 United States (CC BY-SA 3.0) license.
+
+>> (Original) Illustrations provided by Gestureworks (www.gestureworks.com)
+
+List of images:
+1. drag_media_gestureworks.svg 
+> original illustration: drag_media_gestureworks.pdf
+> no changes except conversion to .svg format
+
+2. media_rotate_gestureworks.svg
+> original illustration: media_rotate_gestureworks.pdf
+> no changes except conversion to .svg format
+
+3. one_finger_double_tap_gestureworks.svg
+> original illustration: one_finger_double_tap_gestureworks.pdf
+> no changes except conversion to .svg format
+
+4. stroke_shape_rectangle_gestureworks.svg
+> original illustration: stroke_shape_rectangle_gestureworks.pdf
+> no changes except conversion to .svg format
+ 
+5. stroke_symbol_arrow_right_gestureworks_MOD.svg
+> original illustration: stroke_symbol_arrow_right_gestureworks.pdf
+> changes made: conversion to .svg, added strokes to arrow, rotated hand glyph and 
+interchanged start and end point, changed gesture color
+
+6. stroke_symbol_multiply_gestureworks.svg
+> original illustration: stroke_symbol_multiply_gestureworks.pdf
+> changes made: conversion to .svg, changed gesture color
+
+
+The single images in the .ico file are used under a CreativeCommons Attribution-ShareAlike 3.0 United States (CC BY-SA 3.0) license.
+
+>> (Original) Illustrations provided by:
+
+(1) Gestureworks (www.gestureworks.com)
+> double tap gesture image
+> original illustration: one_finger_double_tap_gestureworks.pdf
+
+(2) Jon Phillips
+(http://www.openclipart.org/detail/35959/lightbulb-05-by-anonymous)
+> original lightbulb graphic (Public Domain)
+
